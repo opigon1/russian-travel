@@ -1,0 +1,16 @@
+.root {
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: #2A2C2F;
+  color: #fff;
+  font-family:"Inter";
+  box-sizing: border-box;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+} 
+
+@media screen and (max-width:1024px) {
+  .root {
+    max-width: 1024px;
+  }
+}
