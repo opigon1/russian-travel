@@ -1,5 +1,5 @@
 # Проект: Путешествие по России
-<img src="../russian-travel/images/russian-travel.png">
+<img src="./images/russian-travel.png">
 
 <h2>Описание</h2>
 
