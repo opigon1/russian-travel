@@ -7,6 +7,8 @@
   align-items: center;
   max-width: 1184px;
   max-height: 740px;
+  color: #fff;
+  text-decoration: none;
 }
 
 .cover__overlay::before {
@@ -22,6 +24,7 @@
   background-position: center center;
   background-size: cover;
   z-index: -1;
+  transition: linear opacity .2s;
   opacity: 0.8;
 }
 
