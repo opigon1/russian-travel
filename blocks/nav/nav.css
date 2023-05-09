@@ -2,3 +2,11 @@
   display: flex;
   column-gap: 18px;
 }
+
+@media screen and (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    row-gap: 32px;
+    margin-bottom: 48px;
+  }
+}

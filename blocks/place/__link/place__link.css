@@ -4,3 +4,9 @@
   line-height: 122%;
   text-decoration: underline;
 }
+
+@media screen and (max-width: 420px) {
+  .place__link {
+    margin: 0 16px;
+  }
+}

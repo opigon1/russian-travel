@@ -1,8 +1,25 @@
 .header {
   display: flex;
+  margin: 28px auto 48px;
   justify-content: space-between;
   align-items: center;
-  margin-top: 28px;
-  margin-left: 48px;
-  margin-right: 48px;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    max-width: calc(100% - 96px);
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .header {
+    max-width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .header {
+    max-width: calc(100% - 32px);
+  }
 }

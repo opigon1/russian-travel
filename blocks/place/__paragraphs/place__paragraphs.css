@@ -3,3 +3,10 @@
   flex-direction: column;
   row-gap: 26px;
 }
+
+@media screen and (max-width: 420px) {
+  .place__paragraphs {
+    max-width: calc(100% - 32px);
+    margin: 0 auto;
+  }
+}

@@ -4,3 +4,10 @@
   line-height: 107%;
   margin-bottom: 40px;
 }
+
+@media screen and (max-width: 420px) {
+  .intro__title {
+    font-size: 32px;
+    line-height: 109%;
+  }
+}
