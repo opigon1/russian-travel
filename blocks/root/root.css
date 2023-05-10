@@ -3,7 +3,7 @@
   margin: 0 auto;
   background-color: #2A2C2F;
   color: #fff;
-  font-family:"Inter";
+  font-family:"Inter", Arial, Helvetica, sans-serif;
   box-sizing: border-box;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;

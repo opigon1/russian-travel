@@ -3,16 +3,16 @@
   line-height: 140%;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  margin-top: 8px;
+  margin: 8px 0 0;
 }
 
-@media screen and (max-width: 768px) and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .lead__caption {
     margin-left: 24px;
   }
 }
 
-@media screen and (max-width: 520px){
+@media screen and (max-width: 520px) {
   .lead__caption {
     margin-left: 16px;
   }
