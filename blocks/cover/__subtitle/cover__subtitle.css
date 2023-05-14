@@ -14,3 +14,9 @@
     line-height: 114%;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .cover__subtitle {
+    max-width: 288px;
+  }
+}
